@@ -1,0 +1,73 @@
+.home_page_management_table_area{
+    overflow-x: scroll;
+}
+
+  .top-information,
+  .bottom-information {
+    padding: 0 20px;
+  }
+
+  table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before,
+  table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+     background-color: #29cc97;
+     top: 14px;
+     width: 16px;
+     height: 16px;
+     line-height: 16px;
+     border: 0;
+     font-weight: bold;
+     box-shadow: none;
+    }
+
+  table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
+    background-color: fec400;
+  }
+  .home_page_management_table_area {
+    scrollbar-width: thin;
+    scrollbar-color:   #007C4A    #ffffff;
+  }
+
+  /* Works on Chrome, Edge, and Safari */
+  .home_page_management_table_area::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .home_page_management_table_area::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  .home_page_management_table_area::-webkit-scrollbar-thumb {
+    background-color:   #007C4A;
+    border-radius: 20px;
+    border: 3px solid #ffffff;
+  }
+  .cust_bg{
+    background-color: #f6f7fb;
+  }
+  .sidebar_section_admin {
+      display: inline-block;
+      width: 100%;
+  }
+.sidebar_section_admin li {
+    display: inline-block;
+    width: 100%;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.media_image {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.delete_image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: red;
+    background: #ffffff;
+    padding: 0px 5px;
+    border-radius: 3px;
+    border: none;
+}

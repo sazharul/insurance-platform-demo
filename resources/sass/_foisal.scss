@@ -1,0 +1,34 @@
+.white_image{
+  display: none;
+}
+.black_image{
+  display: block;
+}
+.country_type_select{
+  position: relative;
+  .innter_country_type{
+        position: absolute;
+        display: none;
+      left: 0;
+      right: 0;
+      border: 1px solid #ccc;
+      text-align: center;
+      border-radius: 2px;
+      background: white;
+    .child_inner_class_type{
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 46px;
+      color: rgba(0, 0, 0, 0.8);
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      height: 48px;
+      background: #FFFFFF;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+cursor: pointer;
+    }
+  }
+}

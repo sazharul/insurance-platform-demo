@@ -1,0 +1,27 @@
+$('.click_model_home_header').click(function(){
+    $('#show_model_home_header').appendTo("body").modal('show');
+});
+$('.click_model_home_main_menu').click(function(){
+    $('#show_model_home_main_menu').appendTo("body").modal('show');
+});
+$('.click_model_home_hero_content').click(function(){
+    $('#show_model_home_hero_content').appendTo("body").modal('show');
+});
+$('.click_model_home_card_menu').click(function(){
+    $('#show_model_home_card_menu').appendTo("body").modal('show');
+});
+$('.click_model_home_pc_feature').click(function(){
+    $('#show_model_home_pc_feature').appendTo("body").modal('show');
+});
+$('.click_model_home_work_process').click(function(){
+    $('#show_model_home_work_process').appendTo("body").modal('show');
+});
+$('.click_model_home_testimonial').click(function(){
+    $('#show_model_home_testimonial').appendTo("body").modal('show');
+});
+$('.click_model_home_testimonial_left').click(function(){
+    $('#show_model_home_testimonial_left').appendTo("body").modal('show');
+});
+$('.click_model_home_footer').click(function(){
+    $('#show_model_home_footer').appendTo("body").modal('show');
+});

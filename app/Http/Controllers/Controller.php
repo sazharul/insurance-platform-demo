@@ -1,0 +1,45 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+use Illuminate\Foundation\Bus\DispatchesJobs;
+use Illuminate\Foundation\Validation\ValidatesRequests;
+use Illuminate\Routing\Controller as BaseController;
+
+class Controller extends BaseController
+{
+    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+    public function apiAuthCheck() {
+
+        if (!auth()->user()) {
+            return response()->json(['status_code' => 401]);
+        }
+
+    }
+
+    public function validationMessage($errors) {
+
+        return response()->json([
+            'status'  => false,
+            'message' => $errors,
+        ]);
+    }
+
+    public function successMessage($message = null, $data = null) {
+        return response()->json([
+            'status'  => true,
+            'message' => $message ?? 'Data fetched successfully',
+            'data'    => $data,
+        ]);
+    }
+
+    public function errorMessage($message = null, $data = null) {
+        return response()->json([
+            'status'  => false,
+            'message' => $message ?? 'Data fetched successfully',
+            'data'    => $data,
+        ]);
+    }
+}

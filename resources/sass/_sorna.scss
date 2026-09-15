@@ -1,0 +1,769 @@
+.container {
+    .ps_home{
+        .insurance-icon {
+            position: relative;
+            display: inline-block;
+        }
+    }
+
+    .insurance-icon {
+        position: relative;
+        display: inline-block;
+    }
+}
+
+.coverage_list {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    position: relative;
+
+    .cov_icon_section {
+        display: inline-block;
+        width: 75px;
+        height: 100%;
+        padding: 35px 20px;
+        background: #007C4A;
+        box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25), inset 0px 0px 32px rgba(0, 213, 127, 0.5);
+        border-radius: 10px 0px 0px 10px;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            height: auto;
+            max-width: 50%;
+        }
+    }
+
+    .coverage_content {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 90px;
+        transform: translateY(-50%)
+    }
+}
+
+.engineering_coverage_list {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    overflow: hidden;
+
+    .eng_coverage_img_box {
+        background: #007C4A;
+        height: 100%;
+        position: relative;
+        text-align: center;
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            transform: translateY(-50%);
+            height: auto;
+            max-width: 50%;
+        }
+    }
+
+    .eng_coverage_content_box {
+        padding: 10px 10px 10px 0px;
+    }
+}
+
+.annual-report-section {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 10px 10px 20px 20px;
+
+    h4 {
+        margin-bottom: 0px;
+        margin-top: 10px !important;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .shareholding-line {
+        width: 148px;
+        height: 0px;
+        left: 1px;
+        top: 179.5px;
+        border-radius: 5px;
+        border: 2px solid #007C4A;
+    }
+    .dr_btn_area {
+        width: 145px;
+        height: 35px;
+        color: white;
+        background: #007C4A;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        padding: 6px 5px;
+        left: -15px;
+        margin-left: 15px;
+
+        a {
+            width: 170px;
+            height: 35px;
+            color: white;
+            text-align: center;
+            position: absolute;
+            left: 0px;
+            transition: .5s;
+
+            img {
+                margin-left: 6px;
+                margin-right: 5px;
+            }
+        }
+
+        a:hover {
+            left: -23px;
+        }
+    }
+    .motor_btn_area {
+        width: 187px;
+        height: 35px;
+        color: white;
+        background: #007C4A;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        padding: 6px 5px;
+        margin: 0px;
+
+        a {
+            width: 170px;
+            height: 35px;
+            color: white;
+            text-align: center;
+            position: absolute;
+            left: 0px;
+            transition: .5s;
+
+            img {
+                margin-left: 6px;
+                margin-right: 5px;
+            }
+        }
+
+        a:hover {
+            left: -25px;
+        }
+    }
+
+    .annual-line {
+        width: 60px;
+        height: 0px;
+        border: 2px solid #007C4A;
+        border-radius: 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
+
+.querterly-section {
+    h4 {
+        font-size: 18px;
+        margin-bottom: 10px !important;
+    }
+
+    span {
+        color: #007C4A;
+    }
+}
+
+.financial-highlights {
+    background: #FFFFFF;
+    border: 1px solid #007C4A;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.financial_highlights_table_area {
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #007c4a transparent;
+
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #007c4a;
+        border-radius: 20px;
+        border: 3px solid #007c4a;
+    }
+
+    .table-info {
+        width: 1115px;
+
+        .ul-1 {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 20px;
+
+            .li-1 {
+                text-align: center;
+                font-family: Inter;
+                padding: 16px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 14px;
+                color: rgba(0, 0, 0, 0.8);
+                background: #FFFFFF;
+                box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.04);
+                margin-bottom: 8px;
+            }
+
+            .table_grand_total {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 14px;
+                text-align: right;
+                color: rgba(0, 0, 0, 0.8);
+                padding: 17px 10px;
+            }
+        }
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #007c4a;
+        border-collapse: separate;
+        border-spacing: 10px 10px;
+    }
+}
+
+.shareholding-line {
+    width: 148px;
+    height: 0px;
+    left: 1px;
+    top: 179.5px;
+    border-radius: 5px;
+    border: 2px solid #007C4A;
+}
+
+.title-bottom-line {
+    width: 150px;
+    height: 0px;
+    border: 2px solid #007C4A;
+    border-radius: 5px;
+}
+
+.fire-protect {
+    margin-top: 100px;
+
+}
+
+.hero_main_image {
+    margin-bottom: 50px !important;
+}
+
+.motor_coverage {
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.coverage_container {
+    width: 80%;
+    margin: 0% 10%;
+
+    .coverage_insurance_card {
+        min-height: 222px;
+        background: #EAF4F0;
+        box-shadow: 0px 0px 16px rgba(0, 124, 74, 0.08);
+        border-radius: 8px;
+        padding: 30px 10px 20px 10px;
+        margin-bottom: 35px;
+        transition: transform .8s;
+
+        .coverage_card_img_box {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background: #007C4A;
+            text-align: center;
+            padding: 13px 0px;
+            margin: 0 auto;
+            transition: .9s;
+
+            .active_image {
+                display: none;
+                transition: .9s;
+            }
+        }
+
+        .coverage_card_line {
+            width: 50px;
+            border: 2px solid #007C4A;
+            display: inline-block;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+
+        .coverage_card_content {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+
+    .coverage_insurance_card:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 16px rgba(0, 124, 74, 0.08);
+
+        .coverage_card_img_box {
+            background: #ffffff;
+
+            .active_image {
+                text-align: center;
+                display: inline-block;
+            }
+
+            .default_image {
+                display: none;
+            }
+        }
+    }
+
+    .coverage_insurance_card_white {
+        min-height: 205px;
+        background: #ffffff;
+        box-shadow: 0px 0px 16px rgba(0, 124, 74, 0.08);
+        border-radius: 8px;
+        padding: 30px 10px 20px 10px;
+        margin-bottom: 35px;
+
+        .coverage_card_img_box {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background: #007C4A;
+            text-align: center;
+            padding: 13px 0px;
+            margin: 0 auto;
+            transition: .9s;
+
+            .default_image {
+                transition: transform .8s;
+            }
+        }
+
+        .coverage_card_line {
+            width: 50px;
+            border: 2px solid #007C4A;
+            display: inline-block;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+
+        .coverage_card_content {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+
+    .coverage_insurance_card_white:hover {
+        .coverage_card_img_box {
+            .default_image {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+.marine_large_device,
+.marine_small_device {
+    .coverage_insurance_card {
+        min-height: 222px;
+        background: #EAF4F0;
+        box-shadow: 0px 0px 16px rgba(0, 124, 74, 0.08);
+        border-radius: 8px;
+        padding: 30px 10px 20px 10px;
+        margin-bottom: 35px;
+        transition: transform .8s;
+
+        .coverage_card_img_box {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            background: #007C4A;
+            text-align: center;
+            padding: 13px 0px;
+            margin: 0 auto;
+            transition: .9s;
+
+            .active_image {
+                display: none;
+                transition: .9s;
+            }
+        }
+
+        .coverage_card_line {
+            width: 50px;
+            border: 2px solid #007C4A;
+            display: inline-block;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+
+        .coverage_card_content {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+
+    .coverage_insurance_card:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 16px rgba(0, 124, 74, 0.08);
+
+        .coverage_card_img_box {
+            background: #ffffff;
+
+            .active_image {
+                text-align: center;
+                display: inline-block;
+            }
+
+            .default_image {
+                display: none;
+            }
+        }
+    }
+}
+
+.marine_small_device{
+    display: none;
+}
+.fire-protect {
+    h6 {
+        text-align: justify;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.ps_home {
+    h1 {
+        margin-top: 50px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 50px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    p {
+        margin-top: 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    h2 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.9);
+    }
+
+    .ps_home_card {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        overflow: hidden;
+
+        .card-body {
+            padding: 10px 20px;
+
+            h6 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 20px;
+                color: rgba(0, 0, 0, 0.6);
+
+                p {
+                    margin-top: 10px !important;
+                }
+            }
+
+            h5 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 27px;
+                color: rgba(0, 0, 0, 0.9);
+            }
+        }
+
+        .icon-card {
+            height: 70px;
+            width: 60px;
+            position: absolute;
+            top: 135px;
+            right: 20px;
+            padding: 13px;
+            .active_image {
+                display: none;
+                transition: transform .8s;
+            }
+        }
+
+        .img-shadow {
+            overflow: hidden;
+            height: 165px;
+            img {
+                height: 160px;
+                width: 100%;
+            }
+
+            .overlay {
+                position: absolute;
+                bottom: 100%;
+                left: 0;
+                right: 0;
+                background-color: rgba(0, 0, 0, 0.3);
+                overflow: hidden;
+                width: 100%;
+                height: 0;
+                transition: .5s ease;
+            }
+        }
+
+        .line {
+            img {
+                width: 70px;
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .ps_home_card:hover {
+        .overlay {
+            bottom: unset;
+            height: 200px;
+        }
+
+        .icon-card {
+            background: #007C4A;
+
+            .active_image {
+                display: inline-block;
+                transform: scale(1.1);
+            }
+
+            .default_image {
+                display: none;
+            }
+        }
+    }
+}
+.special_coverage_area{
+    padding: 40px 0px 10px 0px;
+}
+.fire-coverage-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #007C4A;
+}
+
+.marine_small_device {
+    display: none;
+
+}
+
+
+
+.fire-protect-coverage {
+    .fire_container {
+        background: #FFFFFF !important;
+    }
+}
+
+
+
+.text-line {
+    width: 148px;
+    height: 0px;
+    border: 4px solid #007C4A;
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+    .branch-area {
+        height: 395px;
+
+        .branch-component {
+            height: 390px;
+        }
+    }
+
+
+}
+
+@media(max-width: 992px) {
+
+    .motor_coverage {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .ps_home {
+        margin-top: 0px !important;
+
+        h1 {
+            margin-top: 0px;
+        }
+    }
+
+    .fire-protect {
+        margin-top: 0px;
+    }
+
+    .fire-protect_main-img {
+        margin-top: 50px;
+    }
+
+    .marine-cargo-main-img {
+        margin-top: 50px;
+    }
+
+    .marine_large_device {
+        display: none !important;
+    }
+
+    .marine_small_device {
+        display: inline-flex !important;
+    }
+
+
+    .motor_gif {
+        margin-top: 50px;
+    }
+
+    .engineering_gif {
+        margin-top: 50px;
+    }
+
+    .miscellaneous_gif {
+        margin-top: 50px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .ps_home {
+        .intro_premium_calculator {
+            width: 100% !important;
+            margin: 0% !important;
+        }
+    }
+
+    .branch-area {
+        left: 0%;
+    }
+
+}
+
+@media(min-width: 576px) and (max-width: 768px) {
+
+    .branch-area {
+        height: 450px;
+
+        .branch-component {
+            height: 445px;
+
+            .district {
+                width: 110px;
+            }
+
+            .district_name {
+                right: 28px !important;
+            }
+        }
+    }
+
+}
+
+@media(max-width: 768px) {}
+
+@media(max-width: 440px) {
+
+    .engineering_coverage_list {
+        .eng_coverage_img_box {
+            img {
+                left: 25%;
+            }
+        }
+    }
+
+}
+
+@media(max-width: 330px) {
+
+    .branch-area {
+        height: 395px;
+
+        .branch-component {
+            height: 390px;
+        }
+    }
+
+    .engineering_coverage_list {
+        .eng_coverage_img_box {
+            img {
+                left: 17%;
+            }
+        }
+    }
+
+
+}
