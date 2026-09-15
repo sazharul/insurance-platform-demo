@@ -197,7 +197,7 @@ mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">We may post tes
 from you regarding your experience using our services on our website which may
 include your personal information. We will obtain your permission prior to the
 publication of such testimonials and if you would like your testimonial
-removed, then please contact us at:&nbsp;</span><a href="mailto:cs@bimafy.com"><span style="font-size:13.5pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+removed, then please contact us at:&nbsp;</span><a href="mailto:contact@coversure.demo"><span style="font-size:13.5pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
 &quot;Times New Roman&quot;;color:blue">info@coversure.demo</span></a><span style="font-size:13.5pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
 &quot;Times New Roman&quot;;color:black"><o:p></o:p></span></p><p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal"><span style="font-size:13.5pt;font-family:&quot;Times New Roman&quot;,serif;
@@ -215,7 +215,7 @@ mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">If you need to 
 your personal information or there is any change in the personal information
 recorded at our end, or if you want to discontinue using our service, you may
 update or delete it by making the change on our registration page or by
-emailing our website team at&nbsp;</span><a href="mailto:cs@bimafy.com"><span style="font-size:13.5pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
+emailing our website team at&nbsp;</span><a href="mailto:contact@coversure.demo"><span style="font-size:13.5pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
 &quot;Times New Roman&quot;;color:blue">info@coversure.demo</span></a><span style="font-size:13.5pt;font-family:&quot;Times New Roman&quot;,serif;mso-fareast-font-family:
 &quot;Times New Roman&quot;;color:black">&nbsp;or by contacting us by telephone or postal
 mail at the contact information listed below.<o:p></o:p></span></p><p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;

@@ -19,6 +19,8 @@ return [
 
     'demo_mode' => (bool) env('DEMO_MODE', false),
 
+    'contact_mail_to' => env('CONTACT_MAIL_TO', env('MAIL_FROM_ADDRESS', 'contact@coversure.demo')),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

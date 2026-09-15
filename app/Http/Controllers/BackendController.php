@@ -1233,7 +1233,7 @@ class BackendController extends Controller {
         $contact_us->save();
 
         $mailData = $contact_us;
-        Mail::to('ahamedsohan592@gmail.com')->send(new ContactMail($mailData));
+        Mail::to(config('app.contact_mail_to'))->send(new ContactMail($mailData));
 
         Alert::success('Mail Sent Successfully', 'We will contact with you shortly');
 
@@ -1264,7 +1264,7 @@ class BackendController extends Controller {
         $complain->save();
 
         $mailData = $complain;
-        Mail::to('ahamedsohan592@gmail.com')->send(new ComplainMail($mailData));
+        Mail::to(config('app.contact_mail_to'))->send(new ComplainMail($mailData));
 
         Alert::success('Complain Submitted Successfully', 'We will contact with you shortly');
 

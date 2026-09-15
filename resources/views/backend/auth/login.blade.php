@@ -24,7 +24,7 @@
     <!-- /.login-logo -->
     <div class="card card-outline card-primary">
         <div class="card-header text-center">
-            <h1>EastLand</h1>
+            <h1>CoverSure</h1>
         </div>
         <div class="card-body">
             @if ($message = Session::get('message'))

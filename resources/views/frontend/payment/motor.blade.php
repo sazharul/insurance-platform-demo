@@ -41,7 +41,7 @@
                 <h3 style="color: #000000; font-weight: 700; font-size: 24px; margin: 0px;">CoverSure Insurance Company
                     Limited</h3>
                 <p style="color: rgba(0, 0, 0, 0.8); font-size: 18px; font-weight: 500; margin: 0px;">Head Office: 13
-                    Dilkhusha Commercial Area, Dhaka-1000, Bangladesh</p>
+                    Demo Business District, Dhaka, Bangladesh</p>
             </div>
             <h2 style="margin: 0px;">PREMIUM BILL {{ strtoupper($data['calculator']->{app()->getLocale() . '_name'}) }}
             </h2>
@@ -66,7 +66,6 @@
             {{--                <p style="margin: 0px; margin-bottom: 10px; display: inline-block; color: rgba(0, 0, 0, 0.8); font-size: 20px;">Branch Name: --}}
             {{--                </p> --}}
             {{--                <p style="margin: 0px; display: inline-block; color: rgba(0, 0, 0, 0.8); font-size: 20px;">Principal Office</p> --}}
-            {{--                <p style="margin: 0px; font-size: 20px;">13 Dilkhusha Commercial Area, Dhaka-1000</p> --}}
             {{--            </div> --}}
         </div>
         <div class="table_area" style="padding-left: 5%; padding-right: 5%; margin-top: 30px;">

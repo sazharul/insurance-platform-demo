@@ -252,7 +252,7 @@
                                                 <div class="input_field">
                                                     <label for="">{{ __('Policy Start Date') }}*</label>
                                                     <input type="date" class="form-control" name="policy_start_date"
-                                                        value="Mr. Sohan" placeholder="{{ __('Name of Nominee') }}*"
+                                                        placeholder="{{ __('Name of Nominee') }}*"
                                                         aria-label="Username" required>
 
                                                 </div>

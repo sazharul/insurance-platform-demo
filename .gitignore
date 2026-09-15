@@ -17,3 +17,5 @@ yarn-error.log
 /.vscode
 vendor.zip
 crud.md
+/public/backend/upload/images/*
+!/public/backend/upload/images/.gitkeep

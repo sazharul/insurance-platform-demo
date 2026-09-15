@@ -44,7 +44,7 @@
     used for any other purpose.</p>
 <p><br></p>
 <p>8. Contact Information:</p>
-<p>If you have any questions or concerns regarding the account deletion process, please contact our support team at support@coversurepremium.com.</p>
+<p>If you have any questions or concerns regarding the account deletion process, please contact our support team at contact@coversure.demo.</p>
 <p><br></p>
 <p>9. Changes to the Policy:</p>
 <p>CoverSure Premium Calculator reserves the right to update or modify this account deletion policy. Any changes will be communicated to users through the

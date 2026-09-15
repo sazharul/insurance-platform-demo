@@ -98,8 +98,7 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="footer_bottom_right">
-                    <a href="http://wiztecbd.com/" target="_blank">Developed by : <b>Wizard Software & Technology
-                            Bangladesh ltd.</b></a>
+                    <p>CoverSure Insurance — portfolio demo platform</p>
                 </div>
             </div>
         </div>

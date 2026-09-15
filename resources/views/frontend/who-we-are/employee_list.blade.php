@@ -25,8 +25,8 @@
         </div>
         <div class="row employee_page">
             <div class="col-lg-12 text-center">
-                <h3><span class="title_line1"></span> {{__('Nawabpur Road Office')}} <span class="title_line2"></span></h3>
-                <p> {{__('120, Nawabpur Road (2nd floor), Dhaka')}} </p>
+                <h3><span class="title_line1"></span> {{__('Demo Office')}} <span class="title_line2"></span></h3>
+                <p> {{__('Demo Business District, Dhaka, Bangladesh')}} </p>
             </div>
         </div>
         <div class="row cus_mb_30 justify-content-center">
