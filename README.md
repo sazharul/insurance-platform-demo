@@ -1,8 +1,13 @@
 # CoverSure — Insurance Management System Demo
 
-A Laravel insurance platform demo with **12+ premium calculators**, admin tariff management, customer dashboards, and Flutter-ready REST APIs.
+A Laravel insurance platform demo with **12+ premium calculators**, admin tariff management, customer dashboards, and Flutter-ready REST APIs. Rebranded as **CoverSure**.
 
-> **Disclaimer:** This is a portfolio recreation for code review. It is not affiliated with [Eastland Insurance PLC](https://www.eastlandinsurance.com/) or any production deployment.
+> **Portfolio demonstration only.** This repository is an independent showcase for recruiters and engineers.
+> It uses the same technologies and architectural patterns from my production work, but it is **not**
+> the source code of any client, employer, or live product. Fictional branding and synthetic data only.
+> See [DISCLAIMER.md](DISCLAIMER.md).
+>
+> Production experience reference: [eastlandinsurance.com](https://www.eastlandinsurance.com/) (code not published).
 
 ## Features
 
