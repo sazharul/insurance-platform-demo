@@ -33,7 +33,7 @@
     <div class="invoice_area" id="invoice_area" style="width: 100%;">
         <div class="invioce_header" style="padding-left: 10%; padding-right: 10%; text-align:center;">
             <div class="header_logo" style="display: inline-block">
-                <img src="{{ asset('images/website/invoice_logo.png') }}" alt="">
+                <img src="{{ asset('images/icon/coversure_logo.png') }}" alt="">
             </div>
             <div class="header_info"
                 style="display: inline-block; margin-left: 30px; text-align:center; padding-top: 30px; padding-bottom: 30px;">

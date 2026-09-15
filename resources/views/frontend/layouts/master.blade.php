@@ -19,6 +19,10 @@
 
 <body>
     <div id="app">
+        <div style="background:#78350f;color:#fef3c7;padding:8px 16px;text-align:center;font-size:13px;">
+            <strong>Portfolio demo</strong> — Independent showcase for hiring. Not affiliated with any client or live product. Fictional data only.
+            <a href="https://azharulislamsohan.com/legal" style="color:#fde68a;text-decoration:underline;margin-left:6px;" target="_blank" rel="noreferrer">Legal notice</a>
+        </div>
         @include('layouts.partials.header')
         <div class="">
             @yield('content')
